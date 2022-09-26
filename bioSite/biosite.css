@@ -5,6 +5,8 @@ html {
 
 header {
     color: #206B6A;
+    text-align: center;
+    border: 30px black;
 }
 
 figcaption {
@@ -17,4 +19,60 @@ div {
 
 p {
     color: #00B8B5;
+}
+
+#landing, #about, #hobbies {
+    display: grid;
+    column-gap: 50px;
+}
+
+#portrait {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#pages {
+    box-shadow: 5px, 5px, 5px, 5px #888888;
+    border: 2px black;
+    width: 50%;
+    padding: 20px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#pages a:hover {
+    color:black;
+}
+
+#pages a:link {
+    text-decoration: underline;
+    color: #00B8B5;
+}
+
+#images {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#bio {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#hobby1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#hobby2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#hobby3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
 }
